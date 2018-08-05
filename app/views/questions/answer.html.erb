@@ -1,0 +1,31 @@
+<h1>Stupid Coaching</h1>
+<!-- <p>@answer</p> -->
+<div class="grey_left_border">
+  <div class="left_margin">
+    <p>
+      <%= @question %>
+    </p>
+  <em>
+  - You</em>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="grey_left_border yellow_background">
+  <div class="left_margin">
+    <p class="bold">
+      <%= @answer %>
+      <br>
+    </p>
+    <em>- Your Coach</em>
+
+  </div>
+</div>
+
+
+
+<br>
+<div><%= link_to "Ask again", ask_path %></div>
+
